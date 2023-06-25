@@ -1,6 +1,6 @@
-var imagenes = ['../media/r1.jpg','../media/r2.jpg','../media/r3.jpg']
-var imagenes2 = ['../media/ar1.jpg','../media/ar2.jpg','../media/ar3.jpg']
-var imagenes3 = ['../media/rfp1.jpg','../media/rpf2.jpeg','../media/rfp3.jpg']
+var imagenes = ['media/r1.jpg','media/r2.jpg','media/r3.jpg']
+var imagenes2 = ['media/ar1.jpg','media/ar2.jpg','media/ar3.jpg']
+var imagenes3 = ['media/rfp1.jpg','media/rpf2.jpeg','media/rfp3.jpg']
 var cont = 0;
 
 function carrusel(contenedor) {
