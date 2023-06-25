@@ -1,0 +1,22 @@
+.contenedorvideo{ 
+width: 100vw;
+height: 95vh;
+}
+body{
+    background-color: #3d4960ce;
+}
+button{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    background-color: #3d4960ce;
+    color: #f5f9fc; 
+    width: 20%;
+    height: 10%;
+    font-size: 1rem;
+    border-radius: 5cm;
+    display: none;
+}
+button:hover{
+    cursor:pointer;
+}

@@ -1,0 +1,505 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../media/Diseño-de-sala-moderna3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  height: 67vh;
+}
+header {
+  display: flex;
+}
+.contenedor-logo {
+  width: 40%;
+  height: 15%;
+  background-color: #140b4d;
+  border-radius: 0 30px 30px 0;
+ 
+  padding-top: 1%;
+}
+.contenedor-logo img {
+  width: 100%;
+  height: 80%;
+}
+
+.contenedor-menu {
+  width: 58%;
+  height: 15%;
+  background-color: #0d63a0;
+  border-radius: 30px 0 0 30px;
+}
+.contenedor-registros {
+  width: 100%;
+  height: 50%;
+  border-bottom: 2px white solid;
+  display: flex;
+}
+.contenedor-registros p,
+a {
+  color: white;
+}
+.navbarbtn {
+  font-size: 3em;
+  margin-top: 1%;
+  display: none;
+  margin-left: 3%;
+}
+#check {
+  display: none;
+}
+.lema {
+  margin: 2% 5%;
+  margin-right: 20%;
+  margin-left: 10%;
+  font-size: 1.5rem;
+  font-family: "Inder";
+}
+.redes-visibles{
+  width: 3rem;
+  position: fixed;
+  z-index: 5;
+  top: 70%;
+}
+.redes-visibles img{
+  width: 100%;
+  height: 100%;
+  margin: 30%;
+}
+.texto-registro {
+  margin: 3% 5%;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.texto-ingresar {
+  margin: 3% 5%;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+.contendor-pestañas {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+.contendor-pestañas a {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  margin-left: 5%;
+}
+.contendor-pestañas nav {
+  margin-top: 2%;
+}
+.contenedor-busqueda{
+    width: 50vw;
+    height: 43vh;
+    background-color: #3d4960ce;
+   margin: 10%;
+    margin-left: 25%;
+    left: 23%;
+    top: 20%;
+    text-align: center;
+    padding: 2%;
+    border-radius: 5% 5% 5% 5%;
+}
+.contenedor-busqueda p{
+    font-size: 1.7rem;
+    color: #FFFFFF;
+    font-weight: lighter;
+  
+}
+.select-type{
+    display: flex;
+    margin-top: 10%;
+}
+.select-type,.buscar{
+    margin-left: 10%;
+}
+
+.select-type a{
+   
+    text-decoration: none;
+    color: #0d63a0;
+    
+}
+.venta,.alquiler{
+    padding: 2%;
+   
+    background-color: #FFFFFF;
+}
+.venta{
+    border-radius: 10% 0 0 0;
+    
+}
+.alquiler{
+    border-radius: 0 10% 0 0;
+    background-color: #D9D9D9;
+    color: #140b4d;
+}
+.buscar{
+    
+    display: flex;
+    
+   
+}
+.buscar select,input,button{
+    height: 7vh;
+    border: none; 
+}
+.buscar select{
+  border-radius: 0% 0% 0% 30%;
+}
+.buscar input[type="text"]{
+    width: 30vw;
+}
+input[type="text"]::placeholder{
+  text-align: center;
+  font-size: 1rem;
+}
+.buscar button{
+    width:10vw ;
+    color: #FFFFFF;
+    background-color: #0d63a0;
+    border-radius: 0% 30% 30% 0%;  
+  
+}
+button:hover{
+  cursor: pointer;
+}
+
+
+/* foooter*/
+.contenedor-footer{
+  width: 100%;
+  height: 66vh auto;
+  background-color: #D9D9D9;
+  text-align: center;
+  padding: 1%;
+}
+.contenedor-footer h2{
+color: #31579C;
+font-size: 1.7rem;
+
+}
+.contenedor-sedes{
+  display: flex;
+  margin-left: 10%;
+}
+.contenedor-sedes div{
+  margin: 3%;
+  border-right: #31579C 2px solid;
+  padding: 2%;
+}
+.contenedor-sedes div:last-child{
+  border: none;
+}
+.contenedor-sedes p{
+  color: #31579C; 
+  font-size: 1.2rem;
+}
+.contenedor-sedes p:first-child{
+ font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 10%;
+}
+.contenedor-logo-footer{
+  border-bottom: 2px solid #31579C;
+  padding: 2%;
+}
+.redes-y-copyright{
+  display: flex;
+}
+.contenedor-redes-footer{
+  display: flex;
+  width: 20% ;
+  margin-top: 1%;  
+}
+.contenedor-redes-footer img{
+  width: 70% ;
+}
+.copyright{
+  width: 60%;
+  padding: 2%;
+ 
+}
+.copyright p{
+  color: #31579C;
+}
+.recoventas{
+  text-align: center;
+}
+.colorventas{
+  color: #D9D9D9;
+}
+
+@media screen and (max-width: 1225px){
+  .contenedor-busqueda{
+    width: 55vw;
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 1124px) {
+  .lema{
+     margin-right: 17%;
+  }
+  .contenedor-busqueda{
+    width: 55vw;
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 1105px) {
+ .lema{
+    margin-right: 16%;
+ }
+}
+
+@media screen and (max-width: 1100px) {
+ .lema{
+    margin-right: 10%;
+ }
+ .contendor-pestañas a {
+     margin-left: 4%;
+ }
+ .contenedor-busqueda{
+  width: 60vw;
+  height: 35vh;
+  margin-left: 20%;
+}
+}
+
+@media screen and (max-width: 1100px) {
+
+ .contendor-pestañas a {
+     margin-left: 2%;
+ }
+}
+
+@media screen and (max-width: 976px) {
+ .lema{
+    margin-right: 2%;
+ }
+ .contenedor-busqueda{
+  width: 75vw;
+  height: 35vh;
+  margin-left: 15%;
+}
+.buscar input[type="text"] {
+  width: 40vw;
+}
+
+}
+
+@media screen and (max-width: 875px) {
+ body{
+  height: 50vh;
+ }
+  .contendor-pestañas a {
+     margin-left: 1%;
+ }
+
+ .contenedor-img-vision img{
+    
+    height: 70% ;
+ }
+ .lema{
+    font-size: 1.3rem;
+  }
+  .contendor-pestañas a {
+    
+     font-size: 1rem;
+ }
+ .contenedor-img-vision{display: none;}
+
+ .lema{
+     display: none;
+ }
+ .contenedor-menu{
+     
+     position: absolute;
+     height:55vh ;
+     width: 15vw;
+     border-radius: 0;
+     display: inline;
+     right: 2%;
+     top: 10%;
+     border-radius: 30px;
+     padding: 2%;
+     display: none;
+     
+ }
+ .contenedor-logo{
+     width: 80vw;
+ }
+ .contenedor-registros{
+     height: 25%;
+     display: block;
+ }
+ .contenedor-registros a{
+     line-height: 50px;
+     font-size: 1.4rem;
+ }
+ .contendor-pestañas a {
+    line-height: 50px;
+     font-size: 1.4rem;
+ }
+ .navbarbtn{
+     display: block;
+ }
+ #check:checked ~ .contenedor-menu{display: block;}
+ .contenedor-logo{
+     height: 10vh;
+ }
+ .contenedor-busqueda{
+  width: 80vw;
+  height: 30vh;
+  margin-left: 10%;
+  
+}
+.container{
+  margin-left: 15%;
+  width: auto;
+}
+}
+
+@media screen and (max-width: 837px){
+ .contenedor-menu{
+     width: 20vw;
+     padding: 3%;
+ }
+
+}
+
+@media screen and (max-width: 793px) {
+
+ .contendor-pestañas a {
+     
+     font-size: 1.4rem;
+ }
+
+ .container{
+  margin-left: 27%;
+}
+.contenedor-busqueda{
+  width: 90vw;
+  height: 30vh;
+ margin-left: 5%;
+  
+}
+.buscar input[type="text"] {
+  width: 50vw;
+}
+}
+
+@media screen and (max-width:690px){
+ .contenedor-menu{
+     width: 25vw;
+     padding: 4%;
+ }
+
+ .contenedor-sedes p:first-child{
+  font-size: 1.3rem;
+}
+.container{
+  margin-left: 4%;
+}
+}
+
+@media screen and (max-width:636px){
+.contenedor-sedes div{
+ margin: 0;
+}
+.buscar input,button{
+  height: 5vh;
+ 
+}
+.buscar select{
+  height: 5vh;
+ 
+}
+.buscar input[type="text"] {
+  width: 70vw;
+}
+.contenedor-busqueda{
+  width: 90vw;
+  height: 30vh;
+ margin-left: 1%;
+  
+}
+.select-type, .buscar {
+  margin-left: 10%;
+}
+}
+
+@media screen and (max-width:524px){
+.contenedor-footer{
+ width: 101vw;
+}
+
+.contenedor-logo-footer img{
+ width: 100%;
+}
+body{
+  height: 43vh;
+}
+.contenedor-busqueda{
+  width: 90vw;
+  height: 25vh;
+ margin-left: 5%;
+  
+}
+}
+
+@media screen and (max-width:524px){
+ .contenedor-sedes p:first-child{
+     font-size: 1.3rem;
+ }
+ .contenedor-sedes p{
+     font-size: 1.1rem;
+ }
+
+ .contenedor-menu{
+     width: 35vw;
+     padding: 7%;
+ }
+ .contenedor-footer {
+  width: 115vw;
+}
+}
+
+@media screen and (max-width:411px){
+ .contenedor-sedes p:first-child{
+     font-size: 1.1rem;
+ }
+ .contenedor-sedes p{
+     font-size: 0.8rem;
+ }
+
+ .contenedor-menu{
+     width: 40vw;
+ }
+ .contenedor-busqueda{
+  width: 100vw;
+  height: 25vh;
+ margin-left: 0%;
+}
+.container{
+  margin-left: 2%;
+}
+}
+
+@media screen and (max-width:344px){
+  .contenedor-sedes p:first-child{
+      font-size: 0.8rem;
+  }
+  .contenedor-sedes p{
+      font-size: 0.8rem;
+  }
+
+}
