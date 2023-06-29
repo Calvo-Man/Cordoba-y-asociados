@@ -12,90 +12,7 @@ body {
   padding: 0;
   height: 100vh;
 }
-header {
-  display: flex;
-}
-.contenedor-logo {
-  width: 53vw;
-  height: 15vh;
-  background-color: #140b4d;
-  border-radius: 0 30px 30px 0;
-  margin-right: 5%;
-  padding-top: 1%;
-}
-.contenedor-logo img {
-  width: 100%;
-  height: 80%;
-}
 
-.contenedor-menu {
-  width: 85vw;
-  height: 15vh;
-  background-color: #0d63a0;
-  border-radius: 30px 0 0 30px;
-}
-.contenedor-registros {
-  width: 100%;
-  height: 50%;
-  border-bottom: 2px white solid;
-  display: flex;
-}
-.contenedor-registros p,
-a {
-  color: white;
-}
-.navbarbtn {
-  font-size: 3em;
-  margin-top: 1%;
-  display: none;
-  margin-left: 3%;
-}
-#check {
-  display: none;
-}
-.lema {
-  margin: 2% 5%;
-  margin-right: 20%;
-  margin-left: 10%;
-  font-size: 1.5rem;
-  font-family: "Inder";
-}
-.redes-visibles{
-  width: 3rem;
-  position: fixed;
-  z-index: 5;
-  top: 70%;
-}
-.redes-visibles img{
-  width: 100%;
-  height: 100%;
-  margin: 30%;
-}
-.texto-registro {
-  margin: 3% 5%;
-  font-size: 1.1rem;
-  text-decoration: none;
-}
-.texto-ingresar {
-  margin: 3% 5%;
-  font-size: 1.1rem;
-  text-decoration: none;
-}
-.contendor-pestañas {
-  width: 100%;
-  height: 50%;
-  text-align: center;
-}
-.contendor-pestañas a {
-  font-size: 1.1rem;
-  color: white;
-  text-decoration: none;
-  margin-left: 5%;
-}
-.contendor-pestañas nav {
-  margin-top: 2%;
-}
-/*termina heather o como se diga cabezara*/
 .contenedor {
   display: flex;
 }
@@ -117,7 +34,7 @@ form label {
   display: block;
   margin-top: 10px;
 }
-form input{
+form input {
   width: 80%;
   height: 4vh;
 }
@@ -125,7 +42,6 @@ form input{
 input,
 #formulario,
 select {
-  
   margin-top: 2%;
 }
 
@@ -141,63 +57,7 @@ select {
   width: 100%;
   height: 100%;
 }
-/* empieza footer*/
-.contenedor-footer {
-  width: 100%;
-  height: 66vh auto;
-  background-color: #d9d9d9;
-  text-align: center;
-  padding: 1%;
-  margin-bottom: 0;
-}
-.contenedor-footer h2 {
-  color: #31579c;
-  font-size: 1.7rem;
-}
-.contenedor-sedes {
-  display: flex;
-  margin-left: 10%;
-}
-.contenedor-sedes div {
-  margin: 3%;
-  border-right: #31579c 2px solid;
-  padding: 2%;
-}
-.contenedor-sedes div:last-child {
-  border: none;
-}
-.contenedor-sedes p {
-  color: #31579c;
-  font-size: 1.2rem;
-}
-.contenedor-sedes p:first-child {
-  font-size: 1.5rem;
-  font-weight: 700;
-  margin-bottom: 10%;
-}
-.contenedor-logo-footer {
-  border-bottom: 2px solid #31579c;
-  padding: 2%;
-}
-.redes-y-copyright {
-  display: flex;
-}
-.contenedor-redes-footer {
-  display: flex;
-  width: 20%;
-  margin-top: 1%;
-}
-.contenedor-redes-footer img {
-  width: 50%;
-}
-.copyright {
-  width: 60%;
-  padding: 2%;
-}
-.copyright p {
-  color: #31579c;
-}
-/*termina footer*/
+
 input::placeholder {
   text-align: center;
   color: #140b4d;
@@ -221,210 +81,48 @@ h2 {
   color: #d9d9d9;
 }
 
-@media screen and (max-width: 1124px) {
-  .lema{
-     margin-right: 17%;
+@media screen and (max-width: 1100px) {
+  .contenedorformulario,
+  .mapa {
+    height: 50vh;
   }
 }
 
-@media screen and (max-width: 1105px) {
- .lema{
-    margin-right: 16%;
- }
-}
-
-@media screen and (max-width: 1100px) {
- .lema{
-    margin-right: 10%;
- }
- .contendor-pestañas a {
-     margin-left: 2%;
- }
- .contenedorformulario,.mapa{
-  height: 50vh;
- }
-
-}
-
-
-
 @media screen and (max-width: 976px) {
- .lema{
-    margin-right: 2%;
- }
- .contenedorformulario{
-  width: 35vw;
- }
-
+  .contenedorformulario {
+    width: 35vw;
+  }
 }
 
 @media screen and (max-width: 875px) {
- .contendor-pestañas a {
-     margin-left: 1%;
- }
-
- .contenedor-img-vision img{
-    
-    height: 70% ;
- }
- .lema{
-    font-size: 1.3rem;
+  form button {
+    width: 20vw;
+    margin-left: 32%;
   }
-  .contendor-pestañas a {
-    
-     font-size: 1rem;
- }
- .contenedor-img-vision{display: none;}
-
- .lema{
-     display: none;
- }
- .contenedor-menu{
-     
-     position: absolute;
-     height:55vh ;
-     width: 20vw;
-     border-radius: 0;
-     display: inline;
-     right: 2%;
-     top: 10%;
-     border-radius: 30px;
-     padding: 4%;
-     display: none;
-     
- }
- .contenedor-logo{
-     width: 80vw;
- }
- .contenedor-registros{
-     height: 25%;
-     display: block;
- }
- .contenedor-registros a{
-     line-height: 50px;
-     font-size: 1.4rem;
- }
- .contendor-pestañas a {
-    line-height: 50px;
-     font-size: 1.4rem;
- }
- .navbarbtn{
-     display: block;
- }
- #check:checked ~ .contenedor-menu{display: block;}
- .contenedor-logo{
-     height: 10vh;
- }
- form button{
-  width: 20vw;
-  margin-left: 32%;
- }
- .contenedor{
-  display: block;
- }
- .contenedorformulario{
-  width: 60vw;
-  margin-left: 20%;
- }
- .mapa{
-  width: 60vw;
-  margin-left: 20%;
-  margin-bottom: 5%;
- }
- body{
-  height: 100%;
- }
+  .contenedor {
+    display: block;
+  }
+  .contenedorformulario {
+    width: 60vw;
+    margin-left: 20%;
+  }
+  .mapa {
+    width: 60vw;
+    margin-left: 20%;
+    margin-bottom: 5%;
+  }
+  body {
+    height: 100%;
+  }
 }
 
-@media screen and (max-width: 837px){
- .contenedor-menu{
-     width: 20vw;
-     padding: 3%;
- }
-
-}
-
-@media screen and (max-width: 793px) {
-
- .contendor-pestañas a {
-     
-     font-size: 1.4rem;
- }
-
-
-}
-
-@media screen and (max-width:690px){
- .contenedor-menu{
-     width: 25vw;
-     padding: 4%;
- }
-
- .contenedor-sedes p:first-child{
-  font-size: 1.3rem;
-}
-}
-
-@media screen and (max-width:636px){
-.contenedor-sedes div{
- margin: 0;
-}
-
-
-}
-
-@media screen and (max-width:524px){
-.contenedor-footer{
- width: 101vw;
-}
-
-.contenedor-logo-footer img{
- width: 100%;
-}
-.contenedorformulario,.mapa{
-  height: 45vh;
-  width: 70vw;
- }
- form button{
-  width: 22vw;
-  
- }
-
-}
-
-@media screen and (max-width:524px){
- .contenedor-sedes p:first-child{
-     font-size: 1.3rem;
- }
- .contenedor-sedes p{
-     font-size: 1.1rem;
- }
-
- .contenedor-menu{
-     width: 35vw;
-     padding: 7%;
- }
-}
-
-@media screen and (max-width:411px){
- .contenedor-sedes p:first-child{
-     font-size: 0.8rem;
- }
- .contenedor-sedes p{
-     font-size: 0.8rem;
- }
-
- .contenedor-menu{
-     width: 40vw;
- }
-}
-
-@media screen and (max-width:344px){
- .contenedor-sedes p:first-child{
-     font-size: 0.8rem;
- }
- .contenedor-sedes p{
-     font-size: 0.8rem;
- }
-
+@media screen and (max-width: 524px) {
+  .contenedorformulario,
+  .mapa {
+    height: 45vh;
+    width: 70vw;
+  }
+  form button {
+    width: 22vw;
+  }
 }
