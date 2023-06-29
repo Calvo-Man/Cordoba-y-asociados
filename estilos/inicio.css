@@ -130,13 +130,7 @@ button:hover {
     height: 60vh;
   }
 
-  .contenedor-img-vision img {
-    height: 70%;
-  }
-
-  .contenedor-img-vision {
-    display: none;
-  }
+ 
 
   .contenedor-busqueda {
     width: 80vw;
@@ -205,12 +199,7 @@ button:hover {
   }
 }
 
-@media screen and (max-width: 524px) {
-  .contenedor-menu {
-    width: 35vw;
-    padding: 7%;
-  }
-}
+
 
 @media screen and (max-width: 411px) {
   .contenedor-busqueda {
